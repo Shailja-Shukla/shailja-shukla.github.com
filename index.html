@@ -1,0 +1,246 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Shailja-Shukla</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./assets/presentation/styles.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="./assets/presentation/styles_print.css" />
+	<!-- jQuery Script -->
+	<script type="text/javascript" src="./assets/js/jquery-1.4.1.min.js"></script>
+	<!-- Cufon Script -->
+	<script type="text/javascript" src="./assets/js/cufon-yui.js"></script>
+	<script type="text/javascript" src="./assets/js/VAG_Rounded_Std_250.font.js"></script>
+	<script type="text/javascript" src="./assets/js/VAG_Rounded_Std_700.font.js"></script>
+	<script type="text/javascript">
+		Cufon.replace('h2');
+		Cufon.replace('h3');
+		Cufon.replace('#mainNav li a', {
+				textShadow: '#fff 0.7px 0.7px'
+			});
+	</script>
+	<!-- jQuery Tabs Script -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".tab").hide();
+			$("#mainNav li:first a").addClass("active").show();
+			$(".tab:first").show();
+			$("#mainNav li a").click(function() {
+				$("#mainNav li a").removeClass("active").css('background-image', 'url(./assets/images/bg_mainNav.jpg)');
+				$("#mainNav li a.last").css('background-image', 'none');
+				Cufon.replace('#mainNav li a', { color: '#a7aaaf', textShadow: '#fff 0.7px 0.7px' } );
+				$(this).parent().prev().children().css('background-image', 'none');
+				$(this).addClass("active").css('background-image', 'url(./assets/images/bg_mainNav_active.png)');
+				Cufon.replace(this, { color: '#4472ab', textShadow: '#fff 0.7px 0.7px' } );
+				$(".tab").hide();
+				var activeTab = $(this.hash);
+				$(activeTab).fadeIn();
+				return false;
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<!-- BEGIN: wrapper -->
+	<div id="wrapper">
+		<!-- BEGIN: topMenu -->
+		<div id="topMenu">
+			<ul>
+				<li><a href="./200901238_Shailja-Shukla.pdf" title="Download resume .pdf"><img src="/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/icon_save.jpg" alt="Download the pdf version" /></a></li>
+				
+			</ul>
+		</div>
+		<!-- END: topMenu -->
+		<!-- BEGIN: sidebar -->
+		<div id="sidebar">
+			<!-- BEGIN: mainNav -->
+			<ul id="mainNav">
+				<li><a href="#About me" title="About me">About me</a></li>
+				<li><a href="#education" title="Education">Education</a></li>
+				<li><a href="#experience" title="Experience">Experience</a></li>
+				<li><a href="#activities" title="Activities" class="last">Activities &amp; Hobbies</a></li>
+			</ul>
+			<!-- END: mainNav -->
+			<!-- BEGIN: twitter -->
+
+			<div id="twitter">
+<p><iframe allowtransparency="true" frameborder="0" scrolling="no"
+  src="http://platform.twitter.com/widgets/follow_button.html?screen_name=shailja_shukla&show_count=false"
+    style="width:100px; height:30px;"></iframe></p>
+<p>Please wait while my tweets load.</p>
+<p><a href="http://twitter.com/shailja_shukla">If you can't wait - check out what I've been tweeting!</a></p>
+
+<script 
+src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js" 
+type="text/javascript">
+</script>
+<script type="text/javascript" charset="utf-8">
+getTwitters('tweet', { 
+  id: 'shailja_shukla', 
+  count: 5, 
+  enableLinks: true, 
+  ignoreReplies: false, 
+  clearContents: true,
+  template: '"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a>'
+});
+</script>
+			</div>
+			<!-- END: twitter -->
+		</div>
+		<!-- END: sidebar -->
+		<!-- BEGIN: mainContent -->
+		<div id="mainContent">
+			<!-- BEGIN: header -->
+			<div id="header">
+				<h1><a href="index.html" title="Shailja Shukla">Shailja Shukla</a></h1>
+				<p>E-mail:shailjashukla1992@gmail.com</p>
+			</div>
+			<!-- END: header -->
+			<!-- BEGIN: profile -->
+			<div id="profile">
+				<img src="./assets/images/image_1.jpg" alt="Image" class="left" />
+				<p><h2>Shailja Shukla<h2><h4>Btech(ICT) final year student at DA-IICT, India</h4></p>
+				<p>C-5, New NarayanNagar Society<br />Opp: Raneshwar Mandir, Vasana Road<br />Vadodara,<br />Gujarat-390015</p>
+				<ul class="social">
+					<li><a href="https://www.facebook.com/shailjashukla26" title="Facebook">Facebook</a></li>
+					<li><a href="http://www.linkedin.com/pub/shailja-shukla/3b/535/2a1" title="Linkedin">Linkedin</a></li>
+					<li><a href="https://twitter.com/shailja_shukla" title="Twitter">Twitter</a></li>
+				</ul>
+			</div>
+			<!-- END: profile -->
+			<!-- BEGIN: tab -->
+			<div id="About me" class="tab">
+				<ul class="divisions">
+					<li>
+						<div class="headerContainer">
+							<h2>.objective</h2>
+						</div>
+						<p>Seeking a position to utilize my skills and abilities in the Telecom Industry Industry that offers Professional growth while being resourceful, innovative and flexible.</p>
+					</li>
+					<li>
+						<div class="headerContainer">
+							<h2>.about me</h2>
+						</div>
+						<p>Hi!I am a fourth year B-tech student in Information and Communication Technology(ICT) at Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT). I have done my majors in Signal Processing and RF Engineering. </p>
+					</li>
+					
+				</ul>
+			</div>
+			<!-- END: tab -->
+			<!-- BEGIN: tab -->
+			<div id="education" class="tab">
+				<ul class="divisions">
+					<li>
+						<div class="headerContainer">
+							<h2>.education</h2>
+						</div>
+						<h4>Dhirubhai Institute of Information and Communication Technology, 2009 - 2013</h4>
+						<p>B.TECH (Information and Communication Technology)<br />Gandhinagar,Gujarat<br />CGPA: 8.55 (till VI th semester)</p>
+						<h4>Shiv Jyoti Higher Secondary School -  Mar, 2009</h4>
+						<p>Kota, Rajasthan. <br />Percentage scored: 81.54%</p>
+						<h4>St.Joseph's High School - Mar, 2007</h4>
+						<p>Una,Gujarat <br />Percentage scored: 88.54%</p>
+					</li>
+					<li>
+						<div class="headerContainer">
+							<h2>.certifications</h2>
+						</div>
+						<p><span>01.</span> EMPOWER - Ericsson University Relationship Program <br /> Currently going on.</p>
+						
+					</li>
+				</ul>
+			</div>
+			<!-- END: tab -->
+			<!-- BEGIN: tab -->
+			<div id="experience" class="tab">
+				<ul class="divisions">
+					<li>
+						<div class="headerContainer">
+							<h2>.experience</h2>
+							<h3>.technical</h3>
+						</div>
+						
+						<p><h4>Languages:</h4> Assembly Language, Verilog, Postgre SQl, C,CORE JAVA,UNIX shell scripts, HTML5(preliminary knowledge)</p>
+						
+						<p><h4>Platforms:</h4> Windows 8,Ubuntu</p>
+						<p><h4>Tools and Technologies:</h4> MATLAB, ns2, LabView, Keil, avrdude, pgAdmin, Xilinx, Logisim, Multisim, Latex</p>
+						<p><h4>Concepts:</h4> Digital Signal Processing, Radio Frequency Engineering, Embedded Hardware Design, Digital Image Processing, Network Protocols, Digital System Architecture</p>
+					</li>
+					<li>
+						<div class="headerContainer">
+							<h3>.projects</h3>
+						</div>
+						
+						<ul>	
+							<li>
+								<h4>RESEARCH INTERNSHIP - Power Control Algorithms in Cognitive Radio Networks</h4>
+								<h4>Guide : Prof. Vijaykumar Chakka, DA-IICT</h4>
+								<p>Description:Here in this project we started with analyzing different power control mechanisms used in CDMA Cellular Networks and then focused on the distributed solution in case of the Cognitive Radio Networks.</p>
+							
+								<h4>SUMMER INTERNSHIP - GSM based Home Automation System.</h4>
+								<h4>Guide : Viraj Chowksi, BISAG (Bhaskaracharya Institue for Space Application and Geo Informatics) - Gandhinagar</h4>
+								<p>Designed a standalone embedded device - a GSM based Home Automation System which can be used to control home appliances remotely through an SMS.</p>
+							
+								<h4>Rural Internship</h4>
+								<h4>ANaRDe(Acil-Navasarjan Rural Development Foundation),Nadiad,Gujarat</h4>
+								<p>Worked under Swajaldhara Yojana of Gujarat Government , which has been started to provide the rural India with clean and fit for drinking water to every household.</p>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<h4>Face Detection and recognition</h4>
+								<p>Analyzed and implemented eigen face method for face detection and recognition in MATLAB</p>
+							
+								<h4>Robust Digital Image Watermarking</h4>
+								<p>Implemented a robust watermarking technique using Wavelet Transform in MATLAB. A Digital Signal Processing Project.</p>
+							
+								<h4>Inpaint</h4>
+								<p>Implementation of a Convolution based Inpainting algorithm in MATLAB. A Digital Image Processing project.</p>
+							
+								<h4>Human Resource Management System - NIFT</h4>
+								<p>Developed the front end side of the HRMS software using HTML and javascript. It is a Software Engineering course project.</p>
+							
+								<h4>Airflight Management System</h4>
+								<p>A Database Management System course project. Developed a database for Airflight Management using pgsql and JDBC.</p>
+							</li>
+							
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- END: tab -->
+			<!-- BEGIN: tab -->
+			
+			<!-- BEGIN: tab -->
+			<div id="activities" class="tab">
+				<ul class="divisions">
+					<li>
+						<div class="headerContainer">
+							<h2>.activities</h2>
+						</div>
+						<ul>
+							<li>
+								<p><span>01.</span> Election Commissioner responsible for conducting general elections - (Apr'10 - present) at DA-IICT.</p>
+								<p><span>02.</span> Basket Ball girls' team captain for the IIT-DELHI sports fest SPORTECH'12.</p>
+								<p><span>03.</span> Stood 2nd in the business plan competition conducted by Endeavour in DA-IICT.</p>
+								<p><span>04.</span> Have taken part in girls' basketball competitions at various national level inter college fests such as Udghosh'10 - IIT Kanpur,Spree'10 - BITS GOA CAMPUS, Sportech'12 - IIT Delhi and won championship in Concours'10 (DA-IICT sports fest).</p>
+								<p><span>05.</span> Stood 3rd in Youth Run, an event in Synapse (annual Techno-Cultural fest) at DA-IICT for 8kms - girl's category.</p>
+								
+							</li>
+							<li>
+								<h4>Hobbies</h4>
+								<p>Basket ball<br />Reading Novels - currently readin Atlas Shrugged by Ayan Rand<br />Trekking -have taken part in Himalayan mountain trekking camps organised by ANALA outdoors- Ahmedabad, Gujarat<br />Learning new languages - have completed 40 hours of tuition for A1 level French</p> 
+							</li>
+						</ul>
+					</li>
+					
+				</ul>
+			</div>
+			<!-- END: tab -->
+		</div>
+		<!-- END: mainContent -->
+	</div>
+	<!-- END: wrapper -->
+</body>
+</html>
