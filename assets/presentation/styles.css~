@@ -80,6 +80,9 @@ p, li {
 	margin-bottom: 12px;
 }
 
+ul.specials li{
+color:#2f6ab3;
+}
 
 ul {
 	list-style: none;
@@ -116,7 +119,7 @@ ul {
 }
 
 #topMenu ul li a[title="print"] {
-	background: url("./../images/icn-print.jpg") no-repeat top left;
+	background: url("./../images/icn_print.jpg") no-repeat top left;
 }
 
 #topMenu ul li a:hover {

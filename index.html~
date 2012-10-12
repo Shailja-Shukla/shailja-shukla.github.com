@@ -146,7 +146,7 @@
 							<h3>.projects</h3>
 						</div>
 						<p style="font-size:15pt;"> Internship</p>
-						<ul>	
+						<ul class="specials">	
 							
 							<li type=disc>	<h4>RESEARCH INTERNSHIP - Power Control Algorithms in Cognitive Radio Networks</h4>
 								<h4>Guide : Prof. Vijaykumar Chakka, DA-IICT</h4>
@@ -162,7 +162,7 @@
 							
 						</ul>
 						<p style="font-size:15pt;"> College Projects</p>
-						<ul>
+						<ul class="specials">
 							
 							<li type=disc>	<h4>Face Detection and recognition</h4>
 								<p>Analyzed and implemented eigen face method for face detection and recognition in MATLAB</p>
