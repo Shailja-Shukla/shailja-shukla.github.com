@@ -80,6 +80,9 @@ p, li {
 	margin-bottom: 12px;
 }
 
+ul.specials li{
+color:#2f6ab3	;
+}
 
 ul {
 	list-style: none;

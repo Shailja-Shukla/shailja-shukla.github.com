@@ -90,7 +90,7 @@
 						<div class="headerContainer">
 							<h2>.objective</h2>
 						</div>
-						<p>Seeking a position to utilize my skills and abilities in the Telecom Industry Industry that offers Professional growth while being resourceful, innovative and flexible.</p>
+						<p>Seeking a position to utilize my skills and abilities in the Telecom Industry that offers Professional growth while being resourceful, innovative and flexible.</p>
 					</li>
 					<li>
 						<div class="headerContainer">
@@ -147,38 +147,38 @@
 						</div>
 						<p style="font-size:15pt;"> Internship</p>
 						<ul>	
-							<li>
-								<h4>RESEARCH INTERNSHIP - Power Control Algorithms in Cognitive Radio Networks</h4>
+							
+							<li type=disc>	<h4>RESEARCH INTERNSHIP - Power Control Algorithms in Cognitive Radio Networks</h4>
 								<h4>Guide : Prof. Vijaykumar Chakka, DA-IICT</h4>
 								<p>Description:Here in this project we started with analyzing different power control mechanisms used in CDMA Cellular Networks and then focused on the distributed solution in case of the Cognitive Radio Networks.</p>
 							
-								<h4>SUMMER INTERNSHIP - GSM based Home Automation System.</h4>
+							<li type=disc>	<h4>SUMMER INTERNSHIP - GSM based Home Automation System.</h4>
 								<h4>Guide : Viraj Chowksi, BISAG (Bhaskaracharya Institue for Space Application and Geo Informatics) - Gandhinagar</h4>
 								<p>Designed a standalone embedded device - a GSM based Home Automation System which can be used to control home appliances remotely through an SMS.</p>
 							
-								<h4>Rural Internship</h4>
+							<li type=disc>	<h4>Rural Internship</h4>
 								<h4>ANaRDe(Acil-Navasarjan Rural Development Foundation),Nadiad,Gujarat</h4>
 								<p>Worked under Swajaldhara Yojana of Gujarat Government , which has been started to provide the rural India with clean and fit for drinking water to every household.</p>
-							</li>
+							
 						</ul>
 						<p style="font-size:15pt;"> College Projects</p>
 						<ul>
-							<li>
-								<h4>Face Detection and recognition</h4>
+							
+							<li type=disc>	<h4>Face Detection and recognition</h4>
 								<p>Analyzed and implemented eigen face method for face detection and recognition in MATLAB</p>
 							
-								<h4>Robust Digital Image Watermarking</h4>
+							<li type=disc> <h4>Robust Digital Image Watermarking</h4>
 								<p>Implemented a robust watermarking technique using Wavelet Transform in MATLAB. A Digital Signal Processing Project.</p>
 							
-								<h4>Inpaint</h4>
+							<li type=disc>	<h4>Inpaint</h4>
 								<p>Implementation of a Convolution based Inpainting algorithm in MATLAB. A Digital Image Processing project.</p>
 							
-								<h4>Human Resource Management System - NIFT</h4>
+							<li type=disc>	<h4>Human Resource Management System - NIFT</h4>
 								<p>Developed the front end side of the HRMS software using HTML and javascript. It is a Software Engineering course project.</p>
 							
-								<h4>Airflight Management System</h4>
+							<li type=disc>	<h4>Airflight Management System</h4>
 								<p>A Database Management System course project. Developed a database for Airflight Management using pgsql and JDBC.</p>
-							</li>
+							
 							
 						</ul>
 					</li>
