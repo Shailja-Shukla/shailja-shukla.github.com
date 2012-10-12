@@ -47,8 +47,8 @@
 		<!-- BEGIN: topMenu -->
 		<div id="topMenu">
 			<ul>
-				<li><a href="./200901238_Shailja-Shukla.pdf" title="Download resume .pdf"><img src="/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/icon_save.jpg" alt="Download the pdf version" /></a></li>
-				
+				<li><a style="width:25px; height:25px" href="./200901238_Shailja-Shukla.pdf" title="Download resume .pdf"><img src="./assets/images/icon_save.jpg" alt="Download the pdf version" /></a></li>
+				<li><a href="#null" onclick="printContent()" title="print" style="width:25px; height:25px"><img src="./assets/images/icn_print.jpg" /></a></li>
 			</ul>
 		</div>
 		<!-- END: topMenu -->
@@ -56,44 +56,18 @@
 		<div id="sidebar">
 			<!-- BEGIN: mainNav -->
 			<ul id="mainNav">
-				<li><a href="#About me" title="About me">About me</a></li>
+				<li><a id="about" href="#Aboutme" title="About me">About me</a></li>
 				<li><a href="#education" title="Education">Education</a></li>
 				<li><a href="#experience" title="Experience">Experience</a></li>
 				<li><a href="#activities" title="Activities" class="last">Activities &amp; Hobbies</a></li>
 			</ul>
 			<!-- END: mainNav -->
-			<!-- BEGIN: twitter -->
-
-			<div id="twitter">
-<p><iframe allowtransparency="true" frameborder="0" scrolling="no"
-  src="http://platform.twitter.com/widgets/follow_button.html?screen_name=shailja_shukla&show_count=false"
-    style="width:100px; height:30px;"></iframe></p>
-<p>Please wait while my tweets load.</p>
-<p><a href="http://twitter.com/shailja_shukla">If you can't wait - check out what I've been tweeting!</a></p>
-
-<script 
-src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js" 
-type="text/javascript">
-</script>
-<script type="text/javascript" charset="utf-8">
-getTwitters('tweet', { 
-  id: 'shailja_shukla', 
-  count: 5, 
-  enableLinks: true, 
-  ignoreReplies: false, 
-  clearContents: true,
-  template: '"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a>'
-});
-</script>
-			</div>
-			<!-- END: twitter -->
 		</div>
 		<!-- END: sidebar -->
 		<!-- BEGIN: mainContent -->
 		<div id="mainContent">
 			<!-- BEGIN: header -->
 			<div id="header">
-				<h1><a href="index.html" title="Shailja Shukla">Shailja Shukla</a></h1>
 				<p>E-mail:shailjashukla1992@gmail.com</p>
 			</div>
 			<!-- END: header -->
@@ -101,7 +75,7 @@ getTwitters('tweet', {
 			<div id="profile">
 				<img src="./assets/images/image_1.jpg" alt="Image" class="left" />
 				<p><h2>Shailja Shukla<h2><h4>Btech(ICT) final year student at DA-IICT, India</h4></p>
-				<p>C-5, New NarayanNagar Society<br />Opp: Raneshwar Mandir, Vasana Road<br />Vadodara,<br />Gujarat-390015</p>
+				<p >C-5, New NarayanNagar Society<br />Opp: Raneshwar Mandir, Vasana Road, Vadodara, Gujarat-390015</p>
 				<ul class="social">
 					<li><a href="https://www.facebook.com/shailjashukla26" title="Facebook">Facebook</a></li>
 					<li><a href="http://www.linkedin.com/pub/shailja-shukla/3b/535/2a1" title="Linkedin">Linkedin</a></li>
@@ -110,7 +84,7 @@ getTwitters('tweet', {
 			</div>
 			<!-- END: profile -->
 			<!-- BEGIN: tab -->
-			<div id="About me" class="tab">
+			<div id="Aboutme" class="tab">
 				<ul class="divisions">
 					<li>
 						<div class="headerContainer">
@@ -171,7 +145,7 @@ getTwitters('tweet', {
 						<div class="headerContainer">
 							<h3>.projects</h3>
 						</div>
-						
+						<p style="font-size:15pt;"> Internship</p>
 						<ul>	
 							<li>
 								<h4>RESEARCH INTERNSHIP - Power Control Algorithms in Cognitive Radio Networks</h4>
@@ -187,6 +161,7 @@ getTwitters('tweet', {
 								<p>Worked under Swajaldhara Yojana of Gujarat Government , which has been started to provide the rural India with clean and fit for drinking water to every household.</p>
 							</li>
 						</ul>
+						<p style="font-size:15pt;"> College Projects</p>
 						<ul>
 							<li>
 								<h4>Face Detection and recognition</h4>
@@ -228,9 +203,11 @@ getTwitters('tweet', {
 								<p><span>05.</span> Stood 3rd in Youth Run, an event in Synapse (annual Techno-Cultural fest) at DA-IICT for 8kms - girl's category.</p>
 								
 							</li>
+						<div class="headerContainer">
+							<h2>.hobbies</h2>
+						</div>
 							<li>
-								<h4>Hobbies</h4>
-								<p>Basket ball<br />Reading Novels - currently readin Atlas Shrugged by Ayan Rand<br />Trekking -have taken part in Himalayan mountain trekking camps organised by ANALA outdoors- Ahmedabad, Gujarat<br />Learning new languages - have completed 40 hours of tuition for A1 level French</p> 
+								<p>Basket ball<br />Reading Novels - currently reading A Prisoner of Birth by Jeffrey Archer<br />Trekking -have taken part in Himalayan mountain trekking camps organised by ANALA outdoors- Ahmedabad, Gujarat<br />Learning new languages - have completed 40 hours of tuition for A1 level French</p> 
 							</li>
 						</ul>
 					</li>
@@ -242,5 +219,17 @@ getTwitters('tweet', {
 		<!-- END: mainContent -->
 	</div>
 	<!-- END: wrapper -->
+<script>
+function printContent(){
+	document.getElementById('Aboutme').style.display = "block";
+	document.getElementById('education').style.display = "block";
+	document.getElementById('experience').style.display = "block";
+	document.getElementById('activities').style.display = "block";
+	window.print();
+	document.getElementById('Aboutme').style.display = "none";
+if(document.getElementById('Aboutme').style.display == "none"){
+	document.getElementById('about').click();}
+}
+</script>
 </body>
 </html>

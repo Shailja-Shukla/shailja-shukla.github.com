@@ -13,7 +13,7 @@
 
 /* ========================== General Styles ========================== */
 body {
-	background: #cbc9be url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/bg_body.jpg") no-repeat top center;
+	background: #cbc9be url("./../images/bg_body.jpg") no-repeat top center;
 	text-align: center;
 }
 
@@ -105,18 +105,18 @@ ul {
 }
 
 #topMenu ul li a {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/icn-save.jpg") no-repeat top left;
+	background: url("./../images/icn-save.jpg") no-repeat top left;
 	display: block;
 	height: 20px;
 	width: 20px;
 }
 
 #topMenu ul li a[title="email"] {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/icon_mail.jpg") no-repeat top left;
+	background: url("./../images/icon_mail.jpg") no-repeat top left;
 }
 
 #topMenu ul li a[title="print"] {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/icn-print.jpg") no-repeat top left;
+	background: url("./../images/icn_print.jpg") no-repeat top left;
 }
 
 #topMenu ul li a:hover {
@@ -125,7 +125,7 @@ ul {
 
 /* ========================== Main Content Styles ========================== */
 #mainContent {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/bg_mainContent.png") no-repeat bottom left;
+	background: url("./../images/bg_mainContent.png") no-repeat bottom left;
 	float: right;
 	padding: 0 35px 70px 35px;
 	width: 453px;
@@ -133,7 +133,7 @@ ul {
 
 /* ========================== Header Styles ========================== */
 #header {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/bg_header.jpg") no-repeat top left;
+	background: url("./../images/bg_header.jpg") no-repeat top left;
 	height: 53px;
 	margin: 0 -35px 25px -35px;
 	overflow: hidden;
@@ -142,7 +142,7 @@ ul {
 }
 
 #header h1 {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/logo.png") no-repeat top left;
+	background: url("./../images/logo.png") no-repeat top left;
 	float: left;
 	text-indent: -9999px;
 }
@@ -179,7 +179,7 @@ ul {
 }
 
 .social li a {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/icons_social.png") no-repeat top left;
+	background: url("./../images/icons_social.png") no-repeat top left;
 	display: block;
 	height: 20px;
 	width: 20px;
@@ -218,7 +218,7 @@ ul {
 }
 
 #mainNav li a {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/bg_mainNav.jpg") no-repeat bottom right;
+	background: url("./../images/bg_mainNav.jpg") no-repeat bottom right;
 	color: #a7aaaf;
 	display: block;
 	font-size: 15px;
@@ -231,7 +231,7 @@ ul {
 }
 
 #mainNav li a.active {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/bg_mainNav_active.png") no-repeat top right;
+	background: url("./../images/bg_mainNav_active.png") no-repeat top right;
 	color: #4472ab;
 	font-size: 16px;
 	height: 54px;
@@ -248,8 +248,7 @@ ul {
 
 /* ========================== Twitter Box Styles ========================== */
 #twitter {
-	background: url("/home/shailja/MyProjects/shailja-shukla.github.com/assets/images/bg_twitter.png") no-repeat top left;
-	height: 299px;
+	background: url("./../images/bg_twitter.png") no-repeat top left;
 	margin-left: 20px;
 	padding: 30px 25px 0 25px;
 	width: 122px;
